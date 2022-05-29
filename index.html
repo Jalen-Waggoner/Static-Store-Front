@@ -5,26 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a5ffe7fa2.js" crossorigin="anonymous"></script>
     <title>Web Notes</title>
 </head>
 <body>
-    <div class="banner">
-        <form action="#">
-            <input class="search-bar" type="text">
-            <button class="seach-button">Search</button>
-        </form>
-    </div>
-    <nav class="menu">
+    <nav class="nav">
         <ul class="menu-options">
-            <li class="nav-links"><a href="#" class="nav-link-options">About Us</a></li>
-            <li class="nav-links"><a href="#" class="nav-link-options">Contact Us</a></li>
-            <li class="nav-links"><a href="#" class="nav-link-options">Shopping Cart</a></li>
+            <li class="nav-link"><a href="#" class="nav-link-options">About Us</a></li>
+            <li class="nav-link"><a href="#" class="nav-link-options">Contact Us</a></li>
         </ul>
+        <form class="search-form" action="#">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <a class="cart-wrapper" href="#"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
     </nav>
-    <section class="side-bar">Side Bar</section>
-    <section class="wrapper">
-        <h2 class="wrapper-header">Selling Items Here</h2>
-
+    <section class="item-wrapper">
+        <h2 class="item-header">Selling Items Here</h2>
+        <div class="item">
+            <img class="item-image" src="" alt="">
+            <h2 class="item-title">Item</h2>
+            <p class="item-description">Item Description</p>
+            <button class="item-submit">Order Item</button>
+        </div>
+        <div class="item">
+            <img class="item-image" src="" alt="">
+            <h2 class="item-title">Item</h2>
+            <p class="item-description">Item Description</p>
+            <button class="item-submit">Order Item</button>
+        </div>
+        <div class="item">
+            <img class="item-image" src="" alt="">
+            <h2 class="item-title">Item</h2>
+            <p class="item-description">Item Description</p>
+            <button class="item-submit">Order Item</button>
+        </div>
+        <div class="item">
+            <img class="item-image" src="" alt="">
+            <h2 class="item-title">Item</h2>
+            <p class="item-description">Item Description</p>
+            <button class="item-submit">Order Item</button>
+        </div>
+        <div class="item">
+            <img class="item-image" src="" alt="">
+            <h2 class="item-title">Item</h2>
+            <p class="item-description">Item Description</p>
+            <button class="item-submit">Order Item</button>
+        </div>
+        <div class="item">
+            <img class="item-image" src="" alt="">
+            <h2 class="item-title">Item</h2>
+            <p class="item-description">Item Description</p>
+            <button class="item-submit">Order Item</button>
+        </div>
     </section>
+    <footer>
+        <ul class="footer-wrapper">
+            <li class="footer-options"><a class="footer-link" href="#">footer link</a></li>
+            <li class="footer-options"><a class="footer-link" href="#">footer link</a></li>
+            <li class="footer-options"><a class="footer-link" href="#">footer link</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
